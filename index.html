@@ -50,6 +50,17 @@
 <!-- BODY -->
 
 <body id="inicio" data-spy="scroll" data-target=".header">
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!--========== HEADER ==========-->
     <header class="header navbar-fixed-top">
@@ -82,7 +93,7 @@
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#acercade">Quienes somos</a></li>
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#ayudas">Ayudas sociales</a></li>
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pazyvida">paz y vida</a></li>
-                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#trabajos">trabajos</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#noticias">noticias</a></li>
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contactos">Contactos</a></li>
                         </ul>
                     </div>
@@ -290,8 +301,8 @@
                                     <div class="row">
                                         <div class="col-sm-7 work-popup-content-divider sm-margin-b-20">
                                             <div class="margin-t-10 sm-margin-t-0">
-                                                <p class="text-justify">La coordinación de becas estudiantiles se encarga de brindar apoyo de Becas en sus distintas modalidades a todas las personas que lo soliciten de acuerdo a las normativas de la Fundación Social Nueva
-                                                    Esparta, a través de un servicio individualizado y humano, de manera justa y pertinente para así contribuir al desarrollo académico y social que busca FUNSONE.</p>
+                                                <p class="text-justify">La coordinación de becas estudiantiles se encarga de brindar apoyo de Becas en sus distintas modalidades a todas las personas que lo soliciten de acuerdo a las normativas de la Fundación Social Nueva Esparta,
+                                                    a través de un servicio individualizado y humano, de manera justa y pertinente para así contribuir al desarrollo académico y social que busca FUNSONE.</p>
                                                 <p>
                                                     <a href="https://docs.google.com/document/d/1JR-35VHxTwGmAjwRHp123EJBPZwD9by58FtYVvIdD10/edit?usp=sharing" target="_blank" class="link">Ver lista de requisitos para solicitud de becas</a>
                                                 </p>
@@ -558,12 +569,16 @@
     <!-- End Pricing -->
 
     <!-- Work -->
-    <div id="trabajos">
+    <div id="noticias">
         <div class="section-seperator">
             <div class="content-md container">
-              <div class="">
-              <a class="twitter-timeline" data-lang="es" data-height="700" data-dnt="true" href="https://twitter.com/funsoneoficial">Tweets by funsoneoficial</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </div>
+                <div class="col-sm-12">
+                    <h2 class="text-center">ÚLTIMAS NOTICIAS</h2>
+                </div>
+                <div class="">
+                    <a class="twitter-timeline" data-lang="es" data-height="700" data-dnt="true" href="https://twitter.com/funsoneoficial">Tweets by funsoneoficial</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
             </div>
         </div>
 
@@ -675,6 +690,20 @@
                             <li class="footer-list-item"><a href="https://instagram.com/funsoneoficial"><i class="margin-r-10 color-base icon-social-instagram"></i>Instagram</a></li>
                         </ul>
                         <!-- End List -->
+                    </div>
+                    <div class="col-sm-2 sm-margin-b-30">
+                        <a href="https://twitter.com/funsoneoficial" class="twitter-follow-button" data-size="large" data-lang="es" data-show-count="false">Follow @funsoneoficial</a>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <div class="fb-like" data-href="https://www.facebook.com/fundacionsocialne/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                        <!-- Coloca esta etiqueta en la sección "head" o justo antes de la etiqueta "body" de cierre. -->
+                        <script src="https://apis.google.com/js/platform.js" async defer>
+                            {
+                                lang: 'es-419'
+                            }
+                        </script>
+
+                        <!-- Coloca esta etiqueta donde quieras que aparezca widget. -->
+                        <div class="g-follow" data-annotation="vertical-bubble" data-height="20" data-href="//plus.google.com/u/0/109387118206004174725" data-rel="publisher"></div>
                     </div>
 
                 </div>
