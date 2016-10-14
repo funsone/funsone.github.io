@@ -185,6 +185,12 @@
     font-size: 40px;
     color:rgb(54, 58, 68)
   }
+  .margin-t-social{
+    margin-top:45px;
+  }
+  .margin-l-social{
+    margin-left: -35px;
+  }
 }
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -207,6 +213,12 @@
   .color-black{
     font-size: 50px;
     color:rgb(54, 58, 68)
+  }
+  .margin-t-social{
+    margin-top:45px;
+  }
+  .margin-l-social{
+    margin-left:-50px;
   }
 }
 /* large desktops and up ----------- */
