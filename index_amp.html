@@ -67,6 +67,20 @@
   section:not([expanded]) .show-less {
     display: none;
   }
+  .carousel2 .slide > amp-img > img{
+    object-fit: contain;
+  }
+  .carousel2 .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ddd;
+    font-size: smaller;
+    max-height: 30%;
+  }
 </style>
  <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
   <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
@@ -96,7 +110,9 @@
 </script>
 </amp-analytics>
 <amp-img  src="/img/logo.png"
-    layout="responsive"></amp-img>
+    layout="responsive"
+    height="28"
+    width="146"></amp-img>
 
   <h1>FUNSONE - Fundación Social Nueva Esparta</h1>
   <amp-carousel class="carousel2"
