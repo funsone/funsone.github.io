@@ -59,14 +59,12 @@
     }]
   }
    </script>
-</head>
   <style amp-custom>
     h1 {
-      color: red;
+      color: black;
     }
   </style>
-  <!-- The AMP runtime must be loaded from the last element in the head. -->
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
+
  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
   <amp-analytics type="googleanalytics" id="analytics1">
 <script type="application/json">
@@ -83,7 +81,9 @@
 }
 </script>
 </amp-analytics>
-
+<!-- The AMP runtime must be loaded from the last element in the head. -->
+  <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
 <!-- #### Body -->
 <!-- -->
@@ -91,7 +91,7 @@
   <!--
     Most HTML tags can be used directly in AMP HTML.
   -->
-  <h1>Hello World!</h1>
+  <h1>FUNSONE - Fundación Social Nueva Esparta</h1>
   <amp-carousel width="400"
         height="300"
         layout="responsive"
@@ -101,17 +101,39 @@
       <amp-img src="/img/1920x1080/02embarazada.jpg"
           width="400"
           height="300"
-          layout="responsive"></amp-img>
+          layout="responsive">TEXT DE EJEMPLO</amp-img>
       <amp-img src="/img/1920x1080/mata.jpg"
           width="400"
           height="300"
-          layout="responsive"></amp-img>
+          layout="responsive">A VER SI PASA</amp-img>
       <amp-img src="/img/1920x1080/ninayviejita.jpg"
           width="400"
           height="300"
           layout="responsive"></amp-img>
     </amp-carousel>
 
+    <div>
+        <amp-social-share type="twitter"
+            width="60"
+            height="44"
+            data-text="FUNSONE - Fundación Social Nueva Esparta"
+            data-url="https://funsone.com.ve/"
+            data-attribution="amphtml"> </amp-social-share>
+        <amp-social-share type="gplus"
+            width="60"
+            height="44"
+            data-text="FUNSONE - Fundación Social Nueva Esparta"
+            data-url="https://funsone.com.ve/"
+            data-attribution="amphtml"></amp-social-share>
 
+        <amp-social-share type="facebook"
+            width="60"
+            height="44"
+            data-param-app_id="254325784911610"
+            data-text="FUNSONE - Fundación Social Nueva Esparta"
+            data-url="https://funsone.com.ve/"
+            data-attribution="amphtml"></amp-social-share>
+
+      </div>
 </body>
 </html>
