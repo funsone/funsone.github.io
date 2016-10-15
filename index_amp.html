@@ -20,8 +20,6 @@
   <!--
     CSS must be embedded inline.
   -->
-
-
   <script type='application/ld+json'>
   {
     "@context": "http://www.schema.org",
@@ -66,6 +64,15 @@
   </style>
 
  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+  <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+  <!-- The AMP runtime must be loaded from the last element in the head. -->
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<!-- #### Body -->
+<!-- -->
+<body>
   <amp-analytics type="googleanalytics" id="analytics1">
 <script type="application/json">
 {
@@ -81,13 +88,6 @@
 }
 </script>
 </amp-analytics>
-<!-- The AMP runtime must be loaded from the last element in the head. -->
-  <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-<script async src="https://cdn.ampproject.org/v0.js"></script>
-</head>
-<!-- #### Body -->
-<!-- -->
-<body>
   <!--
     Most HTML tags can be used directly in AMP HTML.
   -->
