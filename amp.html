@@ -2,23 +2,12 @@
 <html ⚡>
 
 <head>
-    <!-- The charset definition must be the first child of the head tag. -->
     <meta charset="utf-8">
-
-    <!--
-    AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version
-    exists, it should point to itself.
-  -->
     <link rel="canonical" href="https://funsone.com.ve/">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <!--
-    The AMP boilerplate.
-  -->
     <title>FUNSONE - Fundación Social Nueva Esparta</title>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <!--
-      CSS must be embedded inline.
-    -->
+
     <script type='application/ld+json'>
         {
             "@context": "http://www.schema.org",
@@ -122,7 +111,7 @@
         }
         .header{
           background-color: lightskyblue;
-          width: 360px;
+          width: 100%;
           height: 30px;
           text-align: center;
         }
@@ -133,8 +122,12 @@
           text-align: left;
         }
         a{
+          color: rgb(70, 70, 70);
+        }
+        .black{
           color: black;
         }
+
         /* simple line icons*/
         @font-face {
           font-family: 'simple-line-icons';
@@ -149,7 +142,8 @@
         .icon-heart,
         .icon-people,
         .icon-arrow-up,
-        .icon-arrow-down
+        .icon-arrow-down,
+        .icon-screen-desktop
         {
           font-family: 'simple-line-icons';
           speak: none;
@@ -186,6 +180,9 @@
         .icon-clock:before {
           content: "\e081";
         }
+        .icon-screen-desktop:before{
+          content:"\e011"
+        }
 
 </style>
     <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
@@ -216,7 +213,7 @@
 
     <div class="">
       <div class="header">
-        <a href="https://funsone.com.ve"><i class="fa fa-external-link fa-fw"></i> Ver versión completa</a>
+        <a class="black" href="https://funsone.com.ve"><i class="icon-screen-desktop"></i> Ver versión completa</a>
       </div>
       <div class="header-imagen">
         <amp-img src="/img/amp/logo.png" height="28" width="146"></amp-img>
@@ -298,7 +295,7 @@
                             <h4 class="padding-l-10 ">Niños, Niñas y Adolescentes
                               <span class="show-more"><i class="icon-arrow-down"></i></span>
                               <span class="show-less"><i class="icon-arrow-up"></i></span></h4>
-                            <p class="justify padding-lr-10">Entrega de canastillas, medicamentos, ayudas técnicas, pasajes aéreos, entre otros.</p>
+                            <p class="justify padding-lr-10">Entrega de canastillas, medicamentos, ayudas técnicas (silla de ruedas, bastón, andaderas), pasajes aéreos, entre otros.</p>
                         </section>
                         <section>
                             <h4 class="padding-l-10 ">Adultos Mayores
@@ -333,14 +330,14 @@
                 <div class="padding-lr-10">
                     <h3><i class="icon-heart"></i> Atención al ciudadano</h3>
                     <ul>
-                        <li><i class="icon-call-out"></i> 0295 - 2422995</li>
-                        <li><i class="icon-envelope"></i> atencion.funsone@gmail.com</li>
+                        <li  class="a"><i class="icon-call-out"></i><a href="tel:+582952422995"> 0295 - 2422995</a></li>
+                        <li  class="a"><i class="icon-envelope"></i><a href="mailto:atencion.funsone@gmail.com"> atencion.funsone@gmail.com</a></li>
                         <li><i class="icon-calendar"></i> Lunes a Viernes</li>
                         <li><i class="icon-clock"></i> 8am a 12m y 1pm a 3:30pm</li>
                     </ul>
                     <h3><i class="icon-people"></i> Recursos Humanos</h3>
                     <ul>
-                        <li><i class="icon-call-out"></i> 0295 - 2424168</li>
+                        <li><i class="icon-call-out"></i><a href="tel:+582952424168"> 0295 - 2424168</a></li>
                     </ul>
                 </div>
             </section>
