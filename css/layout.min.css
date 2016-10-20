@@ -37,9 +37,6 @@
 .text-justify{
   text-align: justify;
 }
-.color-white-li li{
-    color: rgb(255, 255, 255);
-}
 .a-sin-estilo{
   font-size: 13px;
   color: #81848f;
@@ -96,6 +93,12 @@
     .iframe{
       width:90%;
       height:300px;
+    }
+    .image_full{
+      display: none;
+    }
+    .image_mobile{
+      display:block;
     }
   }
 
@@ -284,6 +287,12 @@
   .iframe{
     width:60%;
     height:400px;
+  }
+  .image_full{
+    display: block;
+  }
+  .image_mobile{
+    display:none;
   }
 }
 /* simple line icons*/
