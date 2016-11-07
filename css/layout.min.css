@@ -27,8 +27,8 @@
 .swiper-clients-img,.swiper-clients-img:hover{transition-duration:.2s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}.form-control{height:50px;font-size:14px;font-weight:400;color:#a6a7aa;background:#fafafa;border:none;box-shadow:none;border-radius:0;padding-left:15px}.form-control::-moz-placeholder{color:#a6a7aa}.form-control:-ms-input-placeholder{color:#a6a7aa}.form-control::-webkit-input-placeholder{color:#a6a7aa}.form-control:focus{color:#515769;box-shadow:none}.form-control:focus::-moz-placeholder{color:#515769}.form-control:focus:-ms-input-placeholder{color:#515769}.form-control:focus::-webkit-input-placeholder{color:#515769}.full-screen{background-size:cover;background-position:center;background-repeat:no-repeat}.carousel-indicators{left:auto;width:auto;padding-left:0;margin-left:0}
 .carousel-centered{position:absolute;top:56%;-webkit-transform:translate3d(0,-50%,0);-moz-transform:translate3d(0,-50%,0);transform:translate3d(0,-50%,0)}
 .carousel-title{font-size:80px;font-weight:700;color:#fff;line-height:1.1;text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.77);}
-.swiper-slider{ position:relative; width:100%; height:100%; overflow:hidden}
-.swiper-clients-img{ display:block; width:auto; height:auto; margin:0 auto; opacity:1; cursor:pointer}
+.swiper-slider{position:relative;width:100%;height:100%;overflow:hidden}
+.swiper-clients-img{display:block;width:auto;height:auto;margin:0 auto;opacity:1;cursor:pointer}
 .swiper-clients-img:hover{opacity:.8}.color-base{color:#17bed2!important}
 .color-white{color:#fff!important;text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.77); font-size:50px; }
 .color-black{font-family: 'Sriracha', cursive; font-size:60px; }
